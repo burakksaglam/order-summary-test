@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.outer_box {
+#outer_box {
   background-color: hsl(225, 100%, 98%);
   text-align: center;
 
@@ -34,7 +34,7 @@ body {
   overflow: hidden;
 }
 
-.attribution {
+#attribution {
   font-size: 11px;
   position: fixed;
   bottom: 0;
@@ -44,11 +44,11 @@ body {
   background: #6cf;
 }
 
-.attribution a {
+#attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-.box_2 {
+#box_2 {
   display: flex;
   background-color: hsl(228, 71%, 96%);
   flex-direction: row;
@@ -56,20 +56,20 @@ body {
   border-radius: 10px;
 }
 
-.box_2 .annual_price {
+#box_2 #annual_price {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.box_1 .order_sum {
+#box_1 #order_sum {
   font-weight: 900;
   font-size: 25px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.box_1 .slogan {
+#box_1 #slogan {
   font-weight: 500;
   /*
   white-space: pre-wrap;
@@ -79,11 +79,11 @@ body {
   margin-bottom: 13px;
 }
 
-.box_2 .annual {
+#box_2 #annual {
   font-weight: 700;
 }
 
-.box_2 .change {
+#box_2 #change {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -91,16 +91,16 @@ body {
   text-decoration: underline;
 }
 
-.box_2 .change:hover {
+#box_2 #change:hover {
   color: hsl(245, 75%, 70%);
 }
 
-.outer_box .hero {
+#outer_box #hero {
   width: 450px;
   height: 220px;
 }
 
-.outer_box .proceed {
+#outer_box #proceed {
   background-color: hsl(245, 75%, 52%);
   color: hsl(225, 100%, 98%);
   padding: 15px 80px 15px 80px;
@@ -108,11 +108,11 @@ body {
   font-weight: 700;
 }
 
-.outer_box .proceed:hover {
+#outer_box #proceed:hover {
   background-color: hsl(245, 75%, 70%);
 }
 
-.outer_box .cancel {
+#outer_box #cancel {
   padding: 15px 80px 15px 80px;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -120,14 +120,14 @@ body {
   font-weight: 700;
 }
 
-.outer_box .cancel:hover {
+#outer_box #cancel:hover {
   color: black;
 }
 
-.box_2 img {
+#box_2 img {
   margin: 20px;
 }
 
-.annual_price .price {
+#price {
   color: hsl(224, 23%, 55%);
 }
